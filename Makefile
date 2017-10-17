@@ -1,3 +1,3 @@
 install:
-	ln -s ~/.dotfiles/.tmux.conf ~
-	ln -s ~/.dotfiles/.vimrc ~
+	ln -s $(CURDIR)/.tmux.conf ~
+	ln -s $(CURDIR)/.vimrc ~
