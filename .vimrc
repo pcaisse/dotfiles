@@ -1,15 +1,30 @@
 filetype plugin indent on
-" show existing tab with 4 spaces width
-set tabstop=4
-" when indenting with '>', use 4 spaces width
-set shiftwidth=4
-" On pressing tab, insert 4 spaces
-set expandtab
+set tabstop=2 shiftwidth=2 expandtab
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
-syntax on
+syntax enable
+colorscheme monokai
+set t_Co=256
+
+if has("termguicolors")
+  set termguicolors
+endif
+
 set number
 
-set wildmode=full
+set wildmode=longest,list,full
 set wildmenu
 
+set hlsearch
+
+set ignorecase
+set smartcase
+
+nnoremap <tab><tab> <C-w>w
+nnoremap <s-tab><s-tab> <C-w>W
+
+set colorcolumn=80
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'elixir-editors/vim-elixir'
