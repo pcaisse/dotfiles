@@ -44,3 +44,9 @@ set mouse=a
 call plug#begin('~/.vim/plugged')
 
 Plug 'elixir-editors/vim-elixir'
+Plug 'scrooloose/nerdtree'
+Plug 'houtsnip/vim-emacscommandline'
+Plug 'vim-syntastic/syntastic'
+
+" Macros
+let @p = 'Oimport pdb; pdb.set_trace()'
