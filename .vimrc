@@ -47,6 +47,7 @@ Plug 'elixir-editors/vim-elixir'
 Plug 'scrooloose/nerdtree'
 Plug 'houtsnip/vim-emacscommandline'
 Plug 'vim-syntastic/syntastic'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
