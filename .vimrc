@@ -32,6 +32,9 @@ set smartcase
 set splitbelow
 set splitright
 
+" Don't wrap text
+set nowrap
+
 " Tab and shift-tab to toggle windows
 nnoremap <tab><tab> <C-w>w
 nnoremap <s-tab><s-tab> <C-w>W
@@ -48,6 +51,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'houtsnip/vim-emacscommandline'
 Plug 'vim-syntastic/syntastic'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'ludovicchabant/vim-gutentags'
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
