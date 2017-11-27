@@ -6,3 +6,4 @@
 - [ ] Install `bash-completion`
 - [ ] Install [vim-plug](https://github.com/junegunn/vim-plug)
 - [ ] Install [vim-monokai](https://github.com/crusoexia/vim-monokai)
+- [ ] Run ':PlugInstall'
