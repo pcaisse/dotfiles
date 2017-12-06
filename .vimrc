@@ -46,6 +46,7 @@ set mouse=a
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'crusoexia/vim-monokai'
 Plug 'elixir-editors/vim-elixir'
 Plug 'scrooloose/nerdtree'
 Plug 'houtsnip/vim-emacscommandline'
