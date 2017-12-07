@@ -3,6 +3,8 @@
   name = Peter Caisse
 [core]
   excludesfile = ~/.gitignore
+[push]
+  default = simple
 [alias]
   l = log --graph --oneline
   lf = log -u
