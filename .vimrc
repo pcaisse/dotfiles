@@ -54,5 +54,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ludovicchabant/vim-gutentags'
 
+call plug#end()
+
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
