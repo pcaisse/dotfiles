@@ -1,6 +1,8 @@
 [user]
   email = pcaisse@gmail.com
   name = Peter Caisse
+[core]
+  excludesfile = ~/.gitignore
 [alias]
   l = log --graph --oneline
   lf = log -u
