@@ -53,6 +53,7 @@ Plug 'houtsnip/vim-emacscommandline'
 Plug 'vim-syntastic/syntastic'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
