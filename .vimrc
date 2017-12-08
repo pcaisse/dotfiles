@@ -44,6 +44,9 @@ set colorcolumn=80
 
 set mouse=a
 
+" Remove trailing whitespace
+autocmd FileType js,python,elixir,markdown autocmd BufWritePre <buffer> %s/\s\+$//e
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'crusoexia/vim-monokai'
