@@ -11,8 +11,9 @@
   cp = cherry-pick
   st = status
   cl = clone
-  ci = commit
+  ci = commit -v
   co = checkout
   br = branch
   d = diff
   dc = diff --cached
+  amend = commit --amend --no-edit
