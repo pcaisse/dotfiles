@@ -8,11 +8,6 @@ autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
 syntax enable
 colorscheme monokai
-set t_Co=256
-
-if has("termguicolors")
-  set termguicolors
-endif
 
 " Display line numbers
 set number
