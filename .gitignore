@@ -4,11 +4,13 @@ __pycache__/
 *$py.class
 
 tags
+tags.lock
 
 build/
 dist/
 
 *.log
+*.temp
 
 node_modules/
 
