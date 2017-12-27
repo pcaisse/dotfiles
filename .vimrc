@@ -54,6 +54,7 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
