@@ -53,6 +53,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
@@ -71,6 +72,10 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " Ctrl+n to open
 map <C-n> :NERDTreeToggle<CR>
+
+" Airline
+
+let g:airline#extensions#tabline#enabled = 1
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
