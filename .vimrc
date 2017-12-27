@@ -34,6 +34,12 @@ set nowrap
 nnoremap <tab><tab> <C-w>w
 nnoremap <s-tab><s-tab> <C-w>W
 
+let mapleader = ";"
+
+" Switch buffers
+map <leader>n :bn<cr>
+map <leader>p :bp<cr>
+
 " Vertical rule
 set colorcolumn=80
 
