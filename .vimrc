@@ -7,7 +7,6 @@ set softtabstop=2 tabstop=2 shiftwidth=2 expandtab
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
 syntax enable
-colorscheme monokai
 
 " Display line numbers
 set number
@@ -52,6 +51,7 @@ autocmd FileType js,python,elixir,markdown autocmd BufWritePre <buffer> %s/\s\+$
 call plug#begin('~/.vim/plugged')
 
 Plug 'crusoexia/vim-monokai'
+Plug 'joshdick/onedark.vim'
 Plug 'elixir-editors/vim-elixir'
 Plug 'scrooloose/nerdtree'
 Plug 'houtsnip/vim-emacscommandline'
@@ -64,6 +64,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 
 call plug#end()
+
+" colorscheme monokai
+colorscheme onedark
 
 " NERDTree
 
