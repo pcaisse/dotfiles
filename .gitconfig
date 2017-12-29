@@ -9,6 +9,7 @@
   l = log --graph --oneline
   lp = log -p
   lf = log -u
+  ln = log --name-only
   cp = cherry-pick
   st = status
   cl = clone
