@@ -18,6 +18,9 @@ set wildmenu
 " Highlight search matches
 set hlsearch
 
+" Retain undo history
+set hidden
+
 " Smart searching
 set ignorecase
 set smartcase
