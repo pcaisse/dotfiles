@@ -93,3 +93,4 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
+let @c = 'Vgc'
