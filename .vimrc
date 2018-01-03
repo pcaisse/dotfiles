@@ -41,6 +41,7 @@ let mapleader = ";"
 " Buffers
 map <leader>n :bn<cr>
 map <leader>p :bp<cr>
+command Bd bp\|bd \#
 map <leader>d :bd<cr>
 
 " Vertical rule
