@@ -41,8 +41,7 @@ let mapleader = ";"
 " Buffers
 map <leader>n :bn<cr>
 map <leader>p :bp<cr>
-command Bd bp\|bd \#
-map <leader>d :bd<cr>
+nnoremap <Leader>d :Bdelete<CR>
 
 " Vertical rule
 set colorcolumn=80
@@ -66,6 +65,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
+Plug 'moll/vim-bbye'
 
 call plug#end()
 
