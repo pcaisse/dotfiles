@@ -66,6 +66,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'moll/vim-bbye'
+Plug 'mhinz/vim-grepper'
 
 call plug#end()
 
