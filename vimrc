@@ -7,7 +7,10 @@ set softtabstop=2 tabstop=2 shiftwidth=2 expandtab
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
 syntax enable
-set termguicolors
+
+if has("termguicolors")
+  set termguicolors
+endif
 
 " Display line numbers
 set number
