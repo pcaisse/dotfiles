@@ -42,7 +42,7 @@ let mapleader = ";"
 " Buffers
 map <leader>n :bn<cr>
 map <leader>p :bp<cr>
-nnoremap <Leader>d :Bdelete<CR>
+nnoremap <Leader>d :bd<CR>
 
 " Vertical rule
 set colorcolumn=80
@@ -67,6 +67,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-grepper'
 Plug 'tpope/vim-vinegar'
 Plug 'dylanaraps/crayon'
+Plug 'jeetsukumaran/vim-buffergator'
 
 call plug#end()
 
