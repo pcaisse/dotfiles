@@ -69,7 +69,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-grepper'
 Plug 'dylanaraps/crayon'
-Plug 'scrooloose/nerdtree'
+Plug 'justinmk/vim-dirvish'
 
 call plug#end()
 
@@ -78,9 +78,6 @@ colorscheme onedark
 
 " Airline
 let g:airline#extensions#tabline#enabled = 1
-
-" NERDTree
-let NERDTreeHijackNetrw=1
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
