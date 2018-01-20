@@ -68,14 +68,19 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-grepper'
-Plug 'tpope/vim-vinegar'
 Plug 'dylanaraps/crayon'
-Plug 'jeetsukumaran/vim-buffergator'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
 colorscheme onedark
 " colorscheme crayon
+
+" Airline
+let g:airline#extensions#tabline#enabled = 1
+
+" NERDTree
+let NERDTreeHijackNetrw=1
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
