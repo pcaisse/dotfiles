@@ -33,8 +33,12 @@ set smartcase
 set splitbelow
 set splitright
 
-" Don't wrap text
-set nowrap
+" Wrap text
+set wrap
+
+" Fix navigation for wrapped lines
+nnoremap j gj
+nnoremap k gk
 
 " Tab and shift-tab to toggle windows
 nnoremap <tab><tab> <C-w>w
