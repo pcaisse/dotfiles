@@ -57,7 +57,15 @@ set colorcolumn=80
 set mouse=a
 
 " Remove trailing whitespace
-autocmd FileType js,python,elixir,markdown autocmd BufWritePre <buffer> %s/\s\+$//e
+fun! StripTrailingWhitespace()
+    " Only strip if the b:noStripeWhitespace variable isn't set
+    if exists('b:noStripWhitespace')
+        return
+    endif
+    %s/\s\+$//e
+endfun
+autocmd BufWritePre * call StripTrailingWhitespace()
+autocmd FileType markdown let b:noStripWhitespace=1
 
 call plug#begin('~/.vim/plugged')
 
