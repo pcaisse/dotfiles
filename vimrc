@@ -36,6 +36,8 @@ set splitright
 " Wrap text
 set wrap
 
+set noesckeys
+
 " Fix navigation for wrapped lines
 nnoremap j gj
 nnoremap k gk
