@@ -90,6 +90,7 @@ colorscheme onedark
 
 " Airline
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
 
 " VimGrepper
 nnoremap <leader>g :Grepper -tool git<cr>
