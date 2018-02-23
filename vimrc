@@ -80,13 +80,8 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
-Plug 'mhinz/vim-grepper'
 Plug 'dylanaraps/crayon'
 Plug 'justinmk/vim-dirvish'
-Plug 'prabirshrestha/async.vim'
-Plug 'prabirshrestha/vim-lsp'
-Plug 'prabirshrestha/asyncomplete.vim'
-Plug 'prabirshrestha/asyncomplete-lsp.vim'
 
 call plug#end()
 
@@ -103,13 +98,3 @@ nnoremap <leader>G :Grepper -tool ag<cr>
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
 let @c = 'Vgc'
-
-" Language servers
-if executable('pyls')
-  " pip install python-language-server
-  au User lsp_setup call lsp#register_server({
-    \ 'name': 'pyls',
-    \ 'cmd': {server_info->['pyls']},
-    \ 'whitelist': ['python'],
-    \ })
-endif
