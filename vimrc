@@ -92,10 +92,6 @@ colorscheme onedark
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
-" VimGrepper
-nnoremap <leader>g :Grepper -tool git<cr>
-nnoremap <leader>G :Grepper -tool ag<cr>
-
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
 let @c = 'Vgc'
