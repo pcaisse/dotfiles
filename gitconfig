@@ -2,6 +2,7 @@
   email = pcaisse@gmail.com
   name = Peter Caisse
 [core]
+  editor = vim
   excludesfile = ~/.gitignore
 [push]
   default = simple
