@@ -46,7 +46,7 @@ nnoremap k gk
 nnoremap <tab><tab> <C-w>w
 nnoremap <s-tab><s-tab> <C-w>W
 
-let mapleader = ";"
+let mapleader = "\<Space>"
 
 " Buffers
 map <leader>n :bn<cr>
