@@ -46,7 +46,7 @@ nnoremap k gk
 nnoremap <tab><tab> <C-w>w
 nnoremap <s-tab><s-tab> <C-w>W
 
-let mapleader = ";"
+let mapleader = "\<Space>"
 
 " Buffers
 map <leader>n :bn<cr>
@@ -57,17 +57,6 @@ nnoremap <Leader>d :bd<CR>
 set colorcolumn=80
 
 set mouse=a
-
-" Remove trailing whitespace
-fun! StripTrailingWhitespace()
-    " Only strip if the b:noStripeWhitespace variable isn't set
-    if exists('b:noStripWhitespace')
-        return
-    endif
-    %s/\s\+$//e
-endfun
-autocmd BufWritePre * call StripTrailingWhitespace()
-autocmd FileType markdown let b:noStripWhitespace=1
 
 call plug#begin('~/.vim/plugged')
 
@@ -83,6 +72,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'dylanaraps/crayon'
 Plug 'justinmk/vim-dirvish'
 Plug 'slashmili/alchemist.vim'
+Plug 'tweekmonster/wstrip.vim'
 
 call plug#end()
 
@@ -91,10 +81,11 @@ colorscheme onedark
 
 " Airline
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
 
-" VimGrepper
-nnoremap <leader>g :Grepper -tool git<cr>
-nnoremap <leader>G :Grepper -tool ag<cr>
+" Wstrip
+let g:wstrip_auto = 1
+autocmd FileType *.md,*.diff let b:wstrip_auto = 0
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
