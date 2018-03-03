@@ -82,6 +82,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'dylanaraps/crayon'
 Plug 'justinmk/vim-dirvish'
+Plug 'slashmili/alchemist.vim'
 
 call plug#end()
 
