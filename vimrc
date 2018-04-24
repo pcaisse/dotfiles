@@ -46,6 +46,9 @@ nnoremap k gk
 nnoremap <tab><tab> <C-w>w
 nnoremap <s-tab><s-tab> <C-w>W
 
+" Toggle paste/nopaste to avoid auto-indenting when pasting
+set pastetoggle=<F3>
+
 let mapleader = "\<Space>"
 
 " Buffers
@@ -73,6 +76,7 @@ Plug 'dylanaraps/crayon'
 Plug 'justinmk/vim-dirvish'
 Plug 'slashmili/alchemist.vim'
 Plug 'tweekmonster/wstrip.vim'
+Plug 'ludovicchabant/vim-gutentags'
 
 call plug#end()
 
