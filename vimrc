@@ -56,6 +56,10 @@ map <leader>n :bn<cr>
 map <leader>p :bp<cr>
 nnoremap <Leader>d :bd<CR>
 
+" Change tab widths
+map <leader>t2 :set ts=2 sw=2 sts=2 et<CR>
+map <leader>t4 :set ts=4 sw=4 sts=4 et<CR>
+
 " Vertical rule
 set colorcolumn=80
 
