@@ -38,6 +38,9 @@ set wrap
 
 set noesckeys
 
+" Make backspace work normally
+set backspace=indent,eol,start
+
 " Fix navigation for wrapped lines
 nnoremap j gj
 nnoremap k gk
