@@ -73,7 +73,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'joshdick/onedark.vim'
 Plug 'elixir-editors/vim-elixir'
 Plug 'houtsnip/vim-emacscommandline'
-Plug 'vim-syntastic/syntastic'
+Plug 'w0rp/ale'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
@@ -84,6 +84,7 @@ Plug 'justinmk/vim-dirvish'
 Plug 'slashmili/alchemist.vim'
 Plug 'tweekmonster/wstrip.vim'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'elmcast/elm-vim'
 
 call plug#end()
 
