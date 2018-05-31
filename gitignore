@@ -9,6 +9,7 @@ __pycache__/
 
 tags
 tags.lock
+.notags
 
 build/
 dist/
