@@ -70,7 +70,6 @@ set mouse=a
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'joshdick/onedark.vim'
 Plug 'elixir-editors/vim-elixir'
 Plug 'houtsnip/vim-emacscommandline'
 Plug 'w0rp/ale'
@@ -79,17 +78,26 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
-Plug 'dylanaraps/crayon'
 Plug 'justinmk/vim-dirvish'
 Plug 'slashmili/alchemist.vim'
 Plug 'tweekmonster/wstrip.vim'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'elmcast/elm-vim'
+Plug 'thaerkh/vim-workspace'
+
+" colorschemes
+Plug 'joshdick/onedark.vim'
+Plug 'dylanaraps/crayon'
+Plug 'mhartington/oceanic-next'
+Plug 'ayu-theme/ayu-vim'
 
 call plug#end()
 
 colorscheme onedark
 " colorscheme crayon
+" colorscheme OceanicNext
+" let ayucolor="mirage"
+" colorscheme ayu
 
 " Airline
 let g:airline#extensions#tabline#enabled = 1
@@ -98,6 +106,12 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 " Wstrip
 let g:wstrip_auto = 1
 autocmd FileType *.md,*.diff let b:wstrip_auto = 0
+
+" Ale
+let g:ale_set_highlights = 0
+
+" Workspace
+nnoremap <leader>s :ToggleWorkspace<CR>
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'

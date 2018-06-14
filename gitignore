@@ -23,3 +23,6 @@ node_modules/
 .venv
 env/
 venv/
+
+# Session files for Workspace vim plugin
+Session.vim
