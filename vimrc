@@ -73,7 +73,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'elixir-editors/vim-elixir'
 Plug 'houtsnip/vim-emacscommandline'
 Plug 'w0rp/ale'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
@@ -84,6 +83,8 @@ Plug 'tweekmonster/wstrip.vim'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'elmcast/elm-vim'
 Plug 'thaerkh/vim-workspace'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 " colorschemes
 Plug 'joshdick/onedark.vim'
@@ -112,6 +113,23 @@ let g:ale_set_highlights = 0
 
 " Workspace
 nnoremap <leader>s :ToggleWorkspace<CR>
+
+" FZF
+map <c-p> :FZF<cr>
+let g:fzf_colors =
+\ { 'fg':      ['fg', 'Normal'],
+  \ 'bg':      ['bg', 'Normal'],
+  \ 'hl':      ['fg', 'Comment'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'Statement'],
+  \ 'info':    ['fg', 'PreProc'],
+  \ 'border':  ['fg', 'Ignore'],
+  \ 'prompt':  ['fg', 'Conditional'],
+  \ 'pointer': ['fg', 'Exception'],
+  \ 'marker':  ['fg', 'Keyword'],
+  \ 'spinner': ['fg', 'Label'],
+  \ 'header':  ['fg', 'Comment'] }
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
