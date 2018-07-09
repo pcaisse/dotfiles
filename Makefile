@@ -3,3 +3,4 @@ link:
 	ln -sfn $(CURDIR)/vimrc ~/.vimrc
 	ln -sfn $(CURDIR)/gitconfig ~/.gitconfig
 	ln -sfn $(CURDIR)/gitignore ~/.gitignore
+	ln -sfn $(CURDIR)/bashrc.local ~/.bashrc.local

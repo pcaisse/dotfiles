@@ -7,3 +7,10 @@
 * Run `:PlugInstall`
 * Install [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
 * Install `bash-completion`
+* Install [ripgrep](https://github.com/BurntSushi/ripgrep)
+* Add to `.bashrc`:
+    ```
+    if [ -f ~/.bashrc.local ]; then
+        . ~/.bashrc.local
+    fi
+    ```
