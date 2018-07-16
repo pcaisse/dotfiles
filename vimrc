@@ -85,6 +85,7 @@ Plug 'elmcast/elm-vim'
 Plug 'thaerkh/vim-workspace'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'mhinz/vim-grepper'
 
 " colorschemes
 Plug 'joshdick/onedark.vim'
@@ -130,6 +131,9 @@ let g:fzf_colors =
   \ 'marker':  ['fg', 'Keyword'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
+
+" Grepper
+nnoremap <leader>g :GrepperRg<Space>
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
