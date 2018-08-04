@@ -12,6 +12,8 @@ tags.lock
 .notags
 
 build/
+_build/
+deps/
 dist/
 
 *.log
