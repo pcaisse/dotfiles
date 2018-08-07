@@ -80,12 +80,13 @@ Plug 'airblade/vim-gitgutter'
 Plug 'justinmk/vim-dirvish'
 Plug 'slashmili/alchemist.vim'
 Plug 'tweekmonster/wstrip.vim'
-Plug 'ludovicchabant/vim-gutentags'
 Plug 'elmcast/elm-vim'
 Plug 'thaerkh/vim-workspace'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-grepper'
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
 
 " colorschemes
 Plug 'joshdick/onedark.vim'
@@ -134,6 +135,19 @@ let g:fzf_colors =
 
 " Grepper
 nnoremap <leader>g :GrepperRg<Space>
+
+" Language servers
+if executable('pyls')
+    " pip install python-language-server
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'pyls',
+        \ 'cmd': {server_info->['pyls']},
+        \ 'whitelist': ['python'],
+        \ })
+endif
+
+nnoremap gd :LspDefinition<CR>
+nnoremap gr :LspReferences<CR>
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
