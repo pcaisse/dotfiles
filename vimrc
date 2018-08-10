@@ -79,7 +79,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'justinmk/vim-dirvish'
 Plug 'slashmili/alchemist.vim'
-Plug 'tweekmonster/wstrip.vim'
+Plug 'ntpeters/vim-better-whitespace'
 Plug 'elmcast/elm-vim'
 Plug 'thaerkh/vim-workspace'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -105,10 +105,6 @@ colorscheme onedark
 " Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
-
-" Wstrip
-let g:wstrip_auto = 1
-autocmd FileType *.md,*.diff let b:wstrip_auto = 0
 
 " Ale
 let g:ale_set_highlights = 0
