@@ -30,3 +30,5 @@ venv/
 # Workspace vim plugin
 Session.vim
 .undodir/
+
+**/.mypy_cache/
