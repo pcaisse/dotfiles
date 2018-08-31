@@ -84,6 +84,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-grepper'
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
+Plug 'tpope/vim-eunuch'
 
 " colorschemes
 Plug 'joshdick/onedark.vim'
