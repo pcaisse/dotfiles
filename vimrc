@@ -1,10 +1,7 @@
 filetype plugin indent on
 
-" 2 space tabs by default
-set softtabstop=2 tabstop=2 shiftwidth=2 expandtab
-
-" 4 space tabs for Python
-autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
+" 4 space tabs by default
+set softtabstop=4 tabstop=4 shiftwidth=4 expandtab
 
 syntax enable
 
