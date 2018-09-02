@@ -109,6 +109,7 @@ let g:ale_set_highlights = 0
 
 " Workspace
 nnoremap <leader>s :ToggleWorkspace<CR>
+let g:workspace_autosave = 0
 
 " FZF
 map <c-p> :FZF<cr>
