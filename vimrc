@@ -38,6 +38,10 @@ set noesckeys
 " Make backspace work normally
 set backspace=indent,eol,start
 
+" Turn on spellcheck for certain file types
+autocmd FileType gitcommit setlocal spell
+autocmd FileType markdown setlocal spell
+
 " Fix navigation for wrapped lines
 nnoremap j gj
 nnoremap k gk
