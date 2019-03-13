@@ -1,3 +1,4 @@
+syntax on
 filetype plugin indent on
 
 " 4 space tabs by default
@@ -86,8 +87,8 @@ Plug 'thaerkh/vim-workspace'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-grepper'
-Plug 'prabirshrestha/async.vim'
-Plug 'prabirshrestha/vim-lsp'
+Plug 'natebosch/vim-lsc'
+Plug 'derekwyatt/vim-scala'
 Plug 'tpope/vim-eunuch'
 Plug 'idris-hackers/idris-vim'
 Plug 'Shougo/vimshell.vim'
@@ -134,21 +135,24 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
+" Configuration for vim-scala
+au BufRead,BufNewFile *.sbt set filetype=scala
+
+" Configuration for vim-lsc
+let g:lsc_enable_autocomplete = v:false
+let g:lsc_server_commands = {
+  \  'scala': {
+  \    'command': 'metals-vim',
+  \    'log_level': 'Log'
+  \  }
+  \}
+let g:lsc_auto_map = {
+  \  'GoToDefinition': 'gd',
+  \  'FindReferences': 'gr',
+  \}
+
 " Grepper
 nnoremap <leader>g :GrepperRg<Space>
-
-" Language servers
-if executable('pyls')
-    " pip install python-language-server
-    au User lsp_setup call lsp#register_server({
-        \ 'name': 'pyls',
-        \ 'cmd': {server_info->['pyls']},
-        \ 'whitelist': ['python'],
-        \ })
-endif
-
-nnoremap gd :LspDefinition<CR>
-nnoremap gr :LspReferences<CR>
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
