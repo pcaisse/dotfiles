@@ -13,6 +13,9 @@ endif
 " Make regex less magical
 set nomagic
 
+" Decrease escape sequence timeout
+set timeout timeoutlen=1000 ttimeoutlen=100
+
 " Display line numbers
 set number
 
