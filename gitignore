@@ -32,3 +32,8 @@ Session.vim
 .undodir/
 
 **/.mypy_cache/
+
+# Metals
+.bloop/
+.metals/
+project/.bloop/
