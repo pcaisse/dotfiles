@@ -10,6 +10,9 @@ if has("termguicolors")
   set termguicolors
 endif
 
+" Make regex less magical
+set nomagic
+
 " Display line numbers
 set number
 
