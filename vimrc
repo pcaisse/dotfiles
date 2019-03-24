@@ -158,7 +158,7 @@ let g:lsc_auto_map = {
   \}
 
 " Grepper
-nnoremap <leader>g :GrepperRg<Space>
+nnoremap <leader>g :Grepper<CR>
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
