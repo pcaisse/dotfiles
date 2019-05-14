@@ -58,7 +58,7 @@ nnoremap <tab><tab> <C-w>w
 nnoremap <s-tab><s-tab> <C-w>W
 
 " Toggle paste/nopaste to avoid auto-indenting when pasting
-set pastetoggle=<F3>
+set pastetoggle=<leader>z
 
 let mapleader = "\<Space>"
 
