@@ -23,6 +23,8 @@ node_modules/
 elm-stuff/
 
 .env
+.env.dev
+.env.staging
 .venv
 env/
 venv/
