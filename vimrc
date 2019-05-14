@@ -98,6 +98,7 @@ Plug 'derekwyatt/vim-scala'
 Plug 'tpope/vim-eunuch'
 Plug 'idris-hackers/idris-vim'
 Plug 'Shougo/vimshell.vim'
+Plug 'leafgarland/typescript-vim'
 
 " colorschemes
 Plug 'joshdick/onedark.vim'
