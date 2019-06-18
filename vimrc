@@ -10,6 +10,9 @@ if has("termguicolors")
   set termguicolors
 endif
 
+" Disable swap files
+set noswapfile
+
 " Make regex less magical
 set nomagic
 
