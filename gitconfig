@@ -1,25 +1,26 @@
 [user]
-  email = pcaisse@gmail.com
-  name = Peter Caisse
+    email = pcaisse@gmail.com
+    name = Peter Caisse
 [core]
-	editor = vim
-  excludesfile = ~/.gitignore
+    editor = vim
+    excludesfile = ~/.gitignore
 [push]
-  default = simple
+    default = simple
 [alias]
-  l = log --graph --oneline
-  lp = log -p
-  lp1 = log -p -n 1
-  lp2 = log -p -n 2
-  lp3 = log -p -n 3
-  lf = log -u
-  ln = log --name-only
-  cp = cherry-pick
-  st = status
-  cl = clone
-  ci = commit -v
-  co = checkout
-  br = branch
-  d = diff
-  dc = diff --cached
-  amend = commit --amend --no-edit
+    l = log --graph --oneline
+    lp = log -p
+    lp1 = log -p -n 1
+    lp2 = log -p -n 2
+    lp3 = log -p -n 3
+    lf = log -u
+    ln = log --name-only
+    cp = cherry-pick
+    st = status
+    cl = clone
+    ci = commit -v
+    co = checkout
+    br = branch
+    d = diff
+    dc = diff --cached
+    amend = commit --amend --no-edit
+    rb = for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/
