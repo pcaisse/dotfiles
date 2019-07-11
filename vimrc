@@ -105,17 +105,10 @@ Plug 'leafgarland/typescript-vim'
 
 " colorschemes
 Plug 'joshdick/onedark.vim'
-Plug 'dylanaraps/crayon'
-Plug 'mhartington/oceanic-next'
-Plug 'ayu-theme/ayu-vim'
 
 call plug#end()
 
 colorscheme onedark
-" colorscheme crayon
-" colorscheme OceanicNext
-" let ayucolor="mirage"
-" colorscheme ayu
 
 " Airline
 let g:airline#extensions#tabline#enabled = 1
