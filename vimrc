@@ -102,6 +102,7 @@ Plug 'tpope/vim-eunuch'
 Plug 'idris-hackers/idris-vim'
 Plug 'Shougo/vimshell.vim'
 Plug 'leafgarland/typescript-vim'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 " colorschemes
 Plug 'joshdick/onedark.vim'
@@ -140,6 +141,10 @@ let g:fzf_colors =
 
 " Configuration for vim-scala
 au BufRead,BufNewFile *.sbt set filetype=scala
+
+" Configuration for prettier
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.css,*.json,*.md,*.yaml,*.html PrettierAsync
 
 " Configuration for coc.nvim
 
