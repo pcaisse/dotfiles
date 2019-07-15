@@ -144,7 +144,7 @@ au BufRead,BufNewFile *.sbt set filetype=scala
 
 " Configuration for prettier
 let g:prettier#autoformat = 0
-autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.css,*.json,*.md,*.yaml,*.html PrettierAsync
+autocmd BufWritePre *.ts,*.tsx PrettierAsync
 let g:prettier#quickfix_enabled = 0
 
 " Configuration for coc.nvim
