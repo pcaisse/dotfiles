@@ -185,9 +185,6 @@ nmap <silent> gr <Plug>(coc-references)
 " Remap for do codeAction of current line
 nmap <leader>ac <Plug>(coc-codeaction)
 
-" Remap for do action format
-nnoremap <silent> F :call CocAction('format')<CR>
-
 " Use K for show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
