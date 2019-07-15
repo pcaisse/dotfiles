@@ -203,7 +203,7 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 nmap <leader>rn <Plug>(coc-rename)
 
 " Grepper
-nnoremap <leader>g :Grepper<CR>
+nnoremap <leader>g :Grepper -tool ag<cr>
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
