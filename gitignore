@@ -15,6 +15,7 @@ build/
 _build/
 deps/
 dist/
+target/
 
 *.log
 *.temp
