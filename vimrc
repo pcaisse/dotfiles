@@ -63,6 +63,12 @@ nnoremap <s-tab><s-tab> <C-w>W
 " Toggle paste/nopaste to avoid auto-indenting when pasting
 set pastetoggle=<leader>z
 
+" Case-sensitive asterisk searching
+nnoremap <silent>  * :let @/='\C\<' . expand('<cword>') . '\>'<CR>:let v:searchforward=1<CR>n
+nnoremap <silent>  # :let @/='\C\<' . expand('<cword>') . '\>'<CR>:let v:searchforward=0<CR>n
+nnoremap <silent> g* :let @/='\C'   . expand('<cword>')       <CR>:let v:searchforward=1<CR>n
+nnoremap <silent> g# :let @/='\C'   . expand('<cword>')       <CR>:let v:searchforward=0<CR>n
+
 let mapleader = "\<Space>"
 
 " Buffers
