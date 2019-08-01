@@ -69,6 +69,9 @@ nnoremap <silent>  # :let @/='\C\<' . expand('<cword>') . '\>'<CR>:let v:searchf
 nnoremap <silent> g* :let @/='\C'   . expand('<cword>')       <CR>:let v:searchforward=1<CR>n
 nnoremap <silent> g# :let @/='\C'   . expand('<cword>')       <CR>:let v:searchforward=0<CR>n
 
+" Auto-reload files that have changed on disk
+set autoread
+
 let mapleader = "\<Space>"
 
 " Buffers
