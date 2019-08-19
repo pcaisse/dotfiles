@@ -70,7 +70,7 @@ nnoremap <silent> g* :let @/='\C'   . expand('<cword>')       <CR>:let v:searchf
 nnoremap <silent> g# :let @/='\C'   . expand('<cword>')       <CR>:let v:searchforward=0<CR>n
 
 " Auto-reload files that have changed on disk
-set autoread
+autocmd FocusGained,BufEnter,CursorHold,CursorHoldI * :checktime
 
 let mapleader = "\<Space>"
 
@@ -112,8 +112,9 @@ Plug 'idris-hackers/idris-vim'
 Plug 'Shougo/vimshell.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'tmux-plugins/vim-tmux-focus-events'
 
-" colorschemes
+" colorscheme
 Plug 'joshdick/onedark.vim'
 
 call plug#end()
@@ -217,3 +218,6 @@ nnoremap <leader>g :Grepper -tool ag<cr>
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
 let @c = 'Vgc'
+
+" Copy current file path to system clipboard
+nmap cp :let @+ = expand("%")<cr>
