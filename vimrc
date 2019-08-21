@@ -221,3 +221,7 @@ let @c = 'Vgc'
 
 " Copy current file path to system clipboard
 nmap cp :let @+ = expand("%")<cr>
+
+" Insert blank lines while staying in normal mode
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
