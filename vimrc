@@ -152,6 +152,9 @@ let g:fzf_colors =
 " Configuration for vim-scala
 au BufRead,BufNewFile *.sbt set filetype=scala
 
+" Configuration for TypeScript
+autocmd BufNewFile,BufRead *.tsx set filetype=typescript.tsx
+
 " Configuration for prettier
 let g:prettier#autoformat = 0
 let g:prettier#quickfix_enabled = 0
