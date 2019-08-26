@@ -127,6 +127,7 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 
 " Ale
 let g:ale_set_highlights = 0
+let g:ale_linters = {'typescript': []}
 
 " Workspace
 nnoremap <leader>s :ToggleWorkspace<CR>
