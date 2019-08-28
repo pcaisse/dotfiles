@@ -111,7 +111,6 @@ Plug 'tpope/vim-eunuch'
 Plug 'idris-hackers/idris-vim'
 Plug 'Shougo/vimshell.vim'
 Plug 'leafgarland/typescript-vim'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'tmux-plugins/vim-tmux-focus-events'
 
 " colorscheme
@@ -157,9 +156,7 @@ au BufRead,BufNewFile *.sbt set filetype=scala
 autocmd BufNewFile,BufRead *.tsx set filetype=typescript.tsx
 
 " Configuration for prettier
-let g:prettier#autoformat = 0
-let g:prettier#quickfix_enabled = 0
-autocmd BufWritePre *.ts,*.tsx PrettierAsync
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " Configuration for coc.nvim
 

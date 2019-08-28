@@ -12,5 +12,6 @@
         "name": "typescript-tslint-plugin"
       }
     ]
-  }
+  },
+  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact"]
 }

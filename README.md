@@ -14,3 +14,8 @@
   fi
   ```
 - Clone Tmux Plugin Manager: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+- Install [metals](https://scalameta.org/metals/docs/editors/vim.html)
+- Install Coc plugins:
+  ```
+  CocInstall coc-tsserver coc-tslint-plugin coc-prettier
+  ```
