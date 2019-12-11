@@ -56,10 +56,6 @@ autocmd FileType markdown setlocal spell
 nnoremap j gj
 nnoremap k gk
 
-" Tab and shift-tab to toggle windows
-nnoremap <tab><tab> <C-w>w
-nnoremap <s-tab><s-tab> <C-w>W
-
 " Toggle paste/nopaste to avoid auto-indenting when pasting
 set pastetoggle=<leader>z
 
