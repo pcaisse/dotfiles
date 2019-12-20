@@ -84,6 +84,9 @@ set colorcolumn=80
 
 set mouse=a
 
+" Fix issue with broken syntax highlighting
+autocmd BufEnter * :syntax sync fromstart
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'elixir-editors/vim-elixir'
