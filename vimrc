@@ -104,7 +104,8 @@ Plug 'thaerkh/vim-workspace'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-grepper'
-Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'scalameta/coc-metals', {'do': 'yarn install --frozen-lockfile'}
 Plug 'derekwyatt/vim-scala'
 Plug 'tpope/vim-eunuch'
 Plug 'idris-hackers/idris-vim'
@@ -158,6 +159,9 @@ autocmd BufNewFile,BufRead *.tsx set filetype=typescript.tsx
 
 " Configuration for prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+" Format JSONC correctly
+autocmd FileType json syntax match Comment +\/\/.\+$+
 
 " Configuration for coc.nvim
 
