@@ -1,8 +1,8 @@
 syntax on
 filetype plugin indent on
 
-" 4 space tabs by default
-set softtabstop=4 tabstop=4 shiftwidth=4 expandtab
+" 2 space tabs by default
+set softtabstop=2 tabstop=2 shiftwidth=2 expandtab
 
 syntax enable
 
