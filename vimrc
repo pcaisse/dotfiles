@@ -164,6 +164,12 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 autocmd FileType json syntax match Comment +\/\/.\+$+
 
 " Configuration for coc.nvim
+" Show all diagnostics
+nnoremap <silent> <space>a  :<C-u>CocList diagnostics<cr>
+" Manage extensions
+nnoremap <silent> <space>e  :<C-u>CocList extensions<cr>
+" Show commands
+nnoremap <silent> <space>c  :<C-u>CocList commands<cr>
 
 " Smaller updatetime for CursorHold & CursorHoldI
 set updatetime=300
