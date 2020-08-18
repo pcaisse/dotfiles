@@ -1,11 +1,4 @@
 {
-  "languageserver": {
-    "metals": {
-      "command": "metals-vim",
-      "rootPatterns": ["build.sbt"],
-      "filetypes": ["scala", "sbt"]
-    }
-  },
   "compilerOptions": {
     "plugins": [
       {
@@ -13,5 +6,6 @@
       }
     ]
   },
-  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact"]
+  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "scala"],
+  "metals.statusBarEnabled": true
 }

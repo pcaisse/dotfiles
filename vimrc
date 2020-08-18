@@ -108,7 +108,6 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-grepper'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'scalameta/coc-metals', {'do': 'yarn install --frozen-lockfile'}
 Plug 'derekwyatt/vim-scala'
 Plug 'tpope/vim-eunuch'
 Plug 'idris-hackers/idris-vim'
