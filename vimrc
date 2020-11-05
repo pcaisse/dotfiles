@@ -66,7 +66,7 @@ nnoremap <silent> g* :let @/='\C'   . expand('<cword>')       <CR>:let v:searchf
 nnoremap <silent> g# :let @/='\C'   . expand('<cword>')       <CR>:let v:searchforward=0<CR>n
 
 " Auto-reload files that have changed on disk
-autocmd FocusGained,BufEnter,CursorHold,CursorHoldI * :checktime
+autocmd! FocusGained,BufEnter,CursorHold,CursorHoldI * if mode() != 'c' | checktime | endif
 
 let mapleader = "\<Space>"
 
