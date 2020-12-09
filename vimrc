@@ -233,6 +233,9 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 " Remap for rename current word
 nmap <leader>rn <Plug>(coc-rename)
 
+" Change text color for coc compiler error messages
+hi! CocErrorSign guifg=#e06c75
+
 " Grepper
 nnoremap <leader>g :Grepper -tool ag<cr>
 
