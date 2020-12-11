@@ -238,6 +238,13 @@ hi! CocErrorSign guifg=#e06c75
 
 " Grepper
 nnoremap <leader>g :Grepper -tool ag<cr>
+" Search word under cursor
+nnoremap <leader>* :Grepper -tool ag -cword -noprompt<cr>
+" Close Grepper quickfix window on ESC
+autocmd FileType qf nnoremap <buffer><silent> <esc> :quit<cr>
+" Prompt quotes when grepping automatically
+let g:grepper = {}
+let g:grepper.prompt_quote = 1
 
 " Macros
 let @p = 'Oimport pdb; pdb.set_trace()'
