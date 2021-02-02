@@ -43,7 +43,9 @@ set splitright
 " Wrap text
 set wrap
 
-set noesckeys
+if !has('nvim')
+  set noesckeys
+endif
 
 " Make backspace work normally
 set backspace=indent,eol,start
