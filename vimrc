@@ -159,9 +159,6 @@ au BufRead,BufNewFile *.sbt set filetype=scala
 " Configuration for TypeScript
 autocmd BufNewFile,BufRead *.tsx set filetype=typescript.tsx
 
-" Configuration for prettier
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-
 " Format JSONC correctly
 autocmd FileType json syntax match Comment +\/\/.\+$+
 

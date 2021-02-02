@@ -6,6 +6,7 @@
       }
     ]
   },
-  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "scala"],
-  "metals.statusBarEnabled": true
+  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "scala", "javascript"],
+  "metals.statusBarEnabled": true,
+  "prettier.requireConfig": true
 }
