@@ -116,6 +116,7 @@ Plug 'idris-hackers/idris-vim'
 Plug 'Shougo/vimshell.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'tmux-plugins/vim-tmux-focus-events'
+Plug 'purescript-contrib/purescript-vim'
 
 " colorscheme
 Plug 'joshdick/onedark.vim'

@@ -21,3 +21,4 @@
   ```
 - Set up [Smart Caps Lock](https://gist.github.com/tanyuan/55bca522bf50363ae4573d4bdcf06e2e#gnulinux)
 - Install `nvim` and configure (see `:h nvim-from-vim`)
+- Install PureScript tooling: `npm i -g purescript-language-server purty`

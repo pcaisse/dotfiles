@@ -1,5 +1,21 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "scala", "javascript"],
+  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "scala", "javascript", "purescript"],
   "metals.statusBarEnabled": true,
-  "prettier.requireConfig": true
+  "prettier.requireConfig": true,
+  "languageserver": {
+    "purescript": {
+      "command": "purescript-language-server",
+      "args": ["--stdio"],
+      "filetypes": ["purescript"],
+      "trace.server": "off",
+      "rootPatterns": ["bower.json", "psc-package.json", "spago.dhall"],
+      "settings": {
+        "purescript": {
+          "addSpagoSources": true,
+          "addNpmPath": true // Set to true if using a local purty install for formatting
+          // etc
+        }
+      }
+    }
+  }
 }
