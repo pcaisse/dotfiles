@@ -3,3 +3,6 @@ source ~/.bash-git-prompt/gitprompt.sh
 
 export FZF_DEFAULT_COMMAND='rg --files --smart-case'
 
+alias vim='nvim'
+alias v='nvim'
+export EDITOR=nvim
