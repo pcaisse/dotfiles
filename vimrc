@@ -241,9 +241,5 @@ autocmd FileType qf nnoremap <buffer><silent> <esc> :quit<cr>
 let g:grepper = {}
 let g:grepper.prompt_quote = 1
 
-" Macros
-let @p = 'Oimport pdb; pdb.set_trace()'
-let @c = 'Vgc'
-
 " Copy current file path to system clipboard
 nmap cp :let @+ = expand("%")<cr>
