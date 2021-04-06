@@ -18,7 +18,7 @@
 - Install [metals](https://scalameta.org/metals/docs/editors/vim.html)
 - Install Coc plugins:
   ```
-  :CocInstall coc-json coc-tsserver coc-tslint-plugin coc-prettier coc-metals coc-pyright
+  :CocInstall coc-json coc-tsserver coc-tslint-plugin coc-prettier coc-metals coc-pyright coc-format-json
   ```
 - Set up [Smart Caps Lock](https://gist.github.com/tanyuan/55bca522bf50363ae4573d4bdcf06e2e#gnulinux)
 - Install PureScript tooling: `npm i -g purescript-language-server purty`
