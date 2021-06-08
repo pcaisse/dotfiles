@@ -12,7 +12,6 @@
     lp1 = log -p -n 1
     lp2 = log -p -n 2
     lp3 = log -p -n 3
-    lf = log -u
     ln = log --name-only
     cp = cherry-pick
     st = status
