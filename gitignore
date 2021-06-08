@@ -40,3 +40,5 @@ Session.vim
 .bloop/
 .metals/
 project/.bloop/
+
+*.bak
