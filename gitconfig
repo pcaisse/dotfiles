@@ -6,6 +6,8 @@
     excludesfile = ~/.gitignore
 [push]
     default = simple
+[pull]
+    ff = only
 [alias]
     l = log --graph --oneline
     lp = log -p
