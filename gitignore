@@ -42,3 +42,8 @@ Session.vim
 project/.bloop/
 
 *.bak
+
+# Haskell
+*.o
+*.hi
+*.hie
