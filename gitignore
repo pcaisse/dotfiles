@@ -47,3 +47,4 @@ project/.bloop/
 *.o
 *.hi
 *.hie
+dist-newstyle/
