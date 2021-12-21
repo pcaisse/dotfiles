@@ -84,6 +84,10 @@ map <leader>t4 :set ts=4 sw=4 sts=4 et<CR>
 " Text width
 set textwidth=100
 
+" No text width for text files or files without an extension
+autocmd bufreadpre *.txt setlocal textwidth=0
+au BufNewFile,BufRead * if &ft == '' | setlocal textwidth=0 | endif
+
 " Vertical rule
 set colorcolumn=100
 
