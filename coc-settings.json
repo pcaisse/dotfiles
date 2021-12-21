@@ -1,5 +1,5 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "scala", "javascript", "purescript"],
+  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "scala", "javascript", "purescript", "python"],
   "metals.statusBarEnabled": true,
   "prettier.requireConfig": true,
   "languageserver": {
@@ -22,5 +22,7 @@
       "rootPatterns": ["*.cabal", "stack.yaml", "cabal.project", "package.yaml", "hie.yaml"],
       "filetypes": ["haskell", "lhaskell"]
     }
-  }
+  },
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true
 }
