@@ -48,3 +48,5 @@ project/.bloop/
 *.hi
 *.hie
 dist-newstyle/
+
+scratch/
