@@ -120,6 +120,7 @@ Plug 'Shougo/vimshell.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'purescript-contrib/purescript-vim'
+Plug 'tpope/vim-surround'
 
 " colorscheme
 Plug 'joshdick/onedark.vim'
