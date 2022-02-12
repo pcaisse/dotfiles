@@ -4,7 +4,7 @@
 - Set up [Smart Caps Lock](https://gist.github.com/tanyuan/55bca522bf50363ae4573d4bdcf06e2e#gnulinux)
 - Install [https://github.com/nvm-sh/nvm](nvm) and latest LTS Node.js version
 - Install [ag](https://github.com/ggreer/the_silver_searcher)
-- Run `git clone https://github.com/pcaisse/dotfiles.git`
+- Run `git clone git@github.com:pcaisse/dotfiles.git`
 - Run `cd dotfiles && make`
 - Install [vim-plug](https://github.com/junegunn/vim-plug)
 - Run `:PlugInstall`
