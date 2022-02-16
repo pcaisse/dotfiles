@@ -17,6 +17,7 @@
     lp2 = log -p -n 2
     lp3 = log -p -n 3
     ln = log --name-only
+    lf = log --follow -p -- 
     cp = cherry-pick
     st = status
     cl = clone
