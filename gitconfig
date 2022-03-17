@@ -8,6 +8,8 @@
     defaultBranch = main
 [push]
     default = simple
+[merge]
+    ff = false
 [pull]
     ff = only
     rebase = true
