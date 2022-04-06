@@ -20,5 +20,5 @@
 - Clone tmux Plugin Manager: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 - Install Coc plugins:
   ```
-  :CocInstall coc-json coc-tsserver coc-eslint coc-prettier coc-metals coc-pyright coc-format-json coc-css
+  :CocInstall coc-json coc-tsserver coc-eslint coc-prettier coc-metals coc-pyright coc-format-json coc-css coc-sql
   ```
