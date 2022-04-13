@@ -4,3 +4,5 @@ source ~/.bash-git-prompt/gitprompt.sh
 alias vim='nvim'
 alias v='nvim'
 export EDITOR=nvim
+
+alias clipboard='xclip -se c'
