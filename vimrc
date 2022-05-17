@@ -43,6 +43,9 @@ set splitright
 " Wrap text
 set wrap
 
+" Make letters increment/decrement-able
+set nrformats+=alpha
+
 if !has('nvim')
   set noesckeys
 endif
