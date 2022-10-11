@@ -1,7 +1,7 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "scala", "javascript", "purescript", "python", "vue"],
+  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "scala", "javascript", "purescript", "python", "vue", "html"],
   "metals.statusBarEnabled": true,
-  "prettier.requireConfig": true,
+  "prettier.requireConfig": false,
   "prettier.disableLanguages": [],
   "languageserver": {
     "purescript": {
