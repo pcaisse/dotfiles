@@ -32,6 +32,10 @@ set hlsearch
 " Retain undo history
 set hidden
 
+" Set global undodir
+set undodir=~/.vim/undodir
+set undofile
+
 " Smart searching
 set ignorecase
 set smartcase
