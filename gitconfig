@@ -4,6 +4,8 @@
 [core]
     editor = vim
     excludesfile = ~/.gitignore
+    autocrlf = input
+    whitespace = cr-at-eol
 [init]
     defaultBranch = main
 [push]
