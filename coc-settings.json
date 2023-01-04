@@ -1,5 +1,16 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "scala", "javascript", "purescript", "python", "vue", "html", "json"],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "typescript",
+    "typescriptreact",
+    "scala",
+    "sc",
+    "javascript",
+    "purescript",
+    "python",
+    "vue",
+    "html",
+    "json"
+  ],
   "metals.statusBarEnabled": true,
   "prettier.requireConfig": false,
   "prettier.disableLanguages": [],
@@ -20,7 +31,13 @@
     "haskell": {
       "command": "haskell-language-server-wrapper",
       "args": ["--lsp"],
-      "rootPatterns": ["*.cabal", "stack.yaml", "cabal.project", "package.yaml", "hie.yaml"],
+      "rootPatterns": [
+        "*.cabal",
+        "stack.yaml",
+        "cabal.project",
+        "package.yaml",
+        "hie.yaml"
+      ],
       "filetypes": ["haskell", "lhaskell"]
     }
   },
