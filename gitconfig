@@ -2,7 +2,7 @@
     email = pcaisse@gmail.com
     name = Peter Caisse
 [core]
-    editor = vim
+	editor = vim
     excludesfile = ~/.gitignore
     autocrlf = input
     whitespace = cr-at-eol

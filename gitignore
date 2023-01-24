@@ -36,10 +36,16 @@ Session.vim
 
 **/.mypy_cache/
 
-# Metals
-.bloop/
-.metals/
-project/.bloop/
+# bloop and metals
+.bloop
+.bsp
+.metals
+project/metals.sbt
+
+# sbt
+project/project/
+project/target/
+target/
 
 *.bak
 
