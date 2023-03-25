@@ -8,6 +8,8 @@
     whitespace = cr-at-eol
 [init]
     defaultBranch = main
+[commit]
+    gpgsign = true
 [push]
     default = simple
 [merge]
