@@ -1,4 +1,5 @@
 link:
+	mkdir ~/.vim/
 	mkdir -p ~/.config/nvim/
 	ln -sfn $(CURDIR)/tmux.conf ~/.tmux.conf
 	ln -sfn $(CURDIR)/vimrc ~/.vimrc
