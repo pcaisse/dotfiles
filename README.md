@@ -18,6 +18,8 @@
   ```
 - Install tmux
 - Clone tmux Plugin Manager: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+- Source tmux (via `tmux source ~/.tmux.conf` or `:source-file ~/.tmux.conf` from within tmux)
+- Install tmux plugins from within tmux via `prefix + I`
 - Install Coc plugins:
   ```
   :CocInstall coc-json coc-tsserver coc-eslint coc-prettier coc-metals coc-pyright coc-format-json coc-css coc-sql
