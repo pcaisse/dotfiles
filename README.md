@@ -1,7 +1,7 @@
 # Setup
 
 - Install Git, cURL, Neovim
-- Set up [Smart Caps Lock](https://gist.github.com/tanyuan/55bca522bf50363ae4573d4bdcf06e2e#gnulinux)
+- Set up [Smart Caps Lock](https://gist.github.com/tanyuan/55bca522bf50363ae4573d4bdcf06e2e#gnulinux) (Linux) or [Karabiner Elements](https://karabiner-elements.pqrs.org/) (macOS)
 - Install [https://github.com/nvm-sh/nvm](nvm) and latest LTS Node.js version
 - Install [ag](https://github.com/ggreer/the_silver_searcher)
 - Run `git clone git@github.com:pcaisse/dotfiles.git`
