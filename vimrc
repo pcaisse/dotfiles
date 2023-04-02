@@ -266,9 +266,9 @@ hi! CocErrorSign guifg=#e06c75
 
 " FZF
 " Mapping to use silver searcher
-nnoremap <leader>g :Ag<cr>
+nnoremap <leader>g :Rg<cr>
 " Search word under cursor
-nnoremap <leader>* :Ag <c-r>=expand("<cword>")<cr><cr>
+nnoremap <leader>* :Rg <c-r>=expand("<cword>")<cr><cr>
 
 " Copy current file path to system clipboard
 nmap cp :let @+ = expand("%")<cr>
