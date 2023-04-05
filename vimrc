@@ -265,8 +265,10 @@ nmap <leader>rn <Plug>(coc-rename)
 hi! CocErrorSign guifg=#e06c75
 
 " FZF
-" Mapping to use silver searcher
+" Mapping to search all files in project
 nnoremap <leader>g :Rg<cr>
+" Mapping to search open buffers
+nnoremap <leader>b :Buffers<cr>
 " Search word under cursor
 nnoremap <leader>* :Rg <c-r>=expand("<cword>")<cr><cr>
 
