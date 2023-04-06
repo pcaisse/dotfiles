@@ -174,8 +174,6 @@ let g:fzf_colors =
   \ 'marker':  ['fg', 'Keyword'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
-" Respect .gitignore via default command
-let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 
 " Configuration for vim-scala
 au BufRead,BufNewFile *.sbt set filetype=scala
