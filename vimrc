@@ -192,6 +192,11 @@ nnoremap <silent> <space>e  :<C-u>CocList extensions<cr>
 " Show commands
 nnoremap <silent> <space>c  :<C-u>CocList commands<cr>
 
+" Add `:F` command to format current buffer
+command! -nargs=0 F :call CocActionAsync('format')
+" Add `:OR` command for organize imports of the current buffer
+command! -nargs=0 OR :call CocActionAsync('runCommand', 'editor.action.organizeImport')
+
 " Use K to either doHover or show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
