@@ -94,6 +94,8 @@ autocmd! FocusGained,BufEnter,CursorHold,CursorHoldI * if mode() != 'c' | checkt
 
 let mapleader = "\<Space>"
 
+vmap <leader>y "+y
+
 " Buffers
 map <leader>n :bn<cr>
 map <leader>p :bp<cr>
