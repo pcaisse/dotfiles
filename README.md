@@ -24,3 +24,4 @@
   ```
   :CocInstall coc-json coc-tsserver coc-eslint coc-prettier coc-metals coc-pyright coc-format-json coc-css coc-sql
   ```
+- Install [terraform-ls](https://github.com/hashicorp/terraform-ls/blob/main/docs/installation.md)
