@@ -280,3 +280,7 @@ nnoremap <leader>* :Rg <c-r>=expand("<cword>")<cr><cr>
 
 " Copy current file path to system clipboard
 nmap cp :let @+ = expand("%")<cr>
+
+" Vertical rule
+set colorcolumn=101
+highlight ColorColumn guibg=#4b5263
