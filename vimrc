@@ -284,3 +284,6 @@ nmap cp :let @+ = expand("%")<cr>
 " Vertical rule
 set colorcolumn=101
 highlight ColorColumn guibg=#4b5263
+
+" Disable context menu on right click
+set mousemodel=extend
