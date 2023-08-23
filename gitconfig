@@ -1,6 +1,7 @@
 [user]
-    email = pcaisse@gmail.com
+    email = peter.caisse@umbra.space
     name = Peter Caisse
+	signingkey = FD07D024F725B248
 [core]
     editor = nvim
     excludesfile = ~/.gitignore
@@ -35,3 +36,4 @@
     dc = diff --cached
     amend = commit --amend --no-edit
     rb = for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/
+    remain = !git fetch && git rebase origin/main
