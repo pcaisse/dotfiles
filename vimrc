@@ -130,6 +130,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'justinmk/vim-dirvish'
+Plug 'roginfarrer/vim-dirvish-dovish', {'branch': 'main'}
 Plug 'slashmili/alchemist.vim'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'elmcast/elm-vim'
