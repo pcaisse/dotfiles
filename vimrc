@@ -163,7 +163,8 @@ nnoremap <leader>s :ToggleWorkspace<CR>
 let g:workspace_autosave = 0
 
 " FZF
-map <c-p> :FZF<cr>
+map <c-p> :GFiles<cr>
+map <c-l> :FZF<cr>
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],
   \ 'bg':      ['bg', 'Normal'],
