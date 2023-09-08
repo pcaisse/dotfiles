@@ -49,5 +49,10 @@
     }
   },
   "python.formatting.provider": "black",
-  "python.linting.flake8Enabled": true
+  "python.linting.flake8Enabled": true,
+  "pyright.organizeimports.provider": "isort",
+  "python.sortImports.args": ["--profile", "black"],
+  "python.linting.mypyEnabled": true,
+  "pyright.disableDiagnostics": false,
+  "suggest.insertMode": "insert"
 }
