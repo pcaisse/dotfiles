@@ -5,6 +5,7 @@ link:
 	ln -sfn $(CURDIR)/vimrc ~/.vimrc
 	ln -sfn $(CURDIR)/gitconfig ~/.gitconfig
 	ln -sfn $(CURDIR)/gitconfig.personal ~/.gitconfig.personal
+	ln -sfn $(CURDIR)/gitconfig.personal.work ~/.gitconfig.personal.work
 	ln -sfn $(CURDIR)/gitconfig.work ~/.gitconfig.work
 	ln -sfn $(CURDIR)/gitignore ~/.gitignore
 	ln -sfn $(CURDIR)/bashrc.local ~/.bashrc.local
