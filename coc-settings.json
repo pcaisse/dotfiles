@@ -9,7 +9,8 @@
     "python",
     "vue",
     "html",
-    "json"
+    "json",
+    "rust"
   ],
   "metals.statusBarEnabled": true,
   "prettier.requireConfig": false,
