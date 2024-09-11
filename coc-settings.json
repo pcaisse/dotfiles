@@ -55,5 +55,6 @@
   "python.sortImports.args": ["--profile", "black"],
   "python.linting.mypyEnabled": true,
   "pyright.disableDiagnostics": false,
-  "suggest.insertMode": "insert"
+  "suggest.insertMode": "insert",
+  "rust-analyzer.checkOnSave.command": "clippy"
 }
