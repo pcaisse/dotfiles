@@ -15,6 +15,7 @@
   "metals.statusBarEnabled": true,
   "prettier.requireConfig": false,
   "prettier.disableLanguages": [],
+  "inlayHint.enable": false,
   "languageserver": {
     "purescript": {
       "command": "purescript-language-server",
@@ -53,7 +54,6 @@
   "python.linting.flake8Enabled": true,
   "pyright.organizeimports.provider": "isort",
   "python.sortImports.args": ["--profile", "black"],
-  "python.linting.mypyEnabled": true,
   "pyright.disableDiagnostics": false,
   "suggest.insertMode": "insert",
   "rust-analyzer.checkOnSave.command": "clippy"
