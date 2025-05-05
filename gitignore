@@ -56,3 +56,5 @@ target/
 dist-newstyle/
 
 scratch/
+
+.mise.toml

@@ -289,3 +289,6 @@ set formatoptions-=t
 " No text width for text files or files without an extension
 autocmd bufreadpre *.txt setlocal textwidth=0
 au BufNewFile,BufRead * if &ft == '' | setlocal textwidth=0 | endif
+
+" Make ctrl-o reopen closed buffers
+set jumpoptions-=clean
