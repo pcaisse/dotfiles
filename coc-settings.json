@@ -56,5 +56,5 @@
   "python.sortImports.args": ["--profile", "black"],
   "pyright.disableDiagnostics": false,
   "suggest.insertMode": "insert",
-  "rust-analyzer.checkOnSave.command": "clippy"
+  "rust-analyzer.checkOnSave": true
 }
