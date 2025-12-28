@@ -30,6 +30,8 @@ elm-stuff/
 env/
 venv/
 
+.vim/
+
 # Workspace vim plugin
 Session.vim
 .undodir/
@@ -58,3 +60,4 @@ dist-newstyle/
 scratch/
 
 .mise.toml
+.DS_Store
