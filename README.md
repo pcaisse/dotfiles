@@ -2,7 +2,7 @@
 
 - Install Git, cURL, Neovim
 - Set up [Smart Caps Lock](https://gist.github.com/tanyuan/55bca522bf50363ae4573d4bdcf06e2e#gnulinux) (Linux) or [Karabiner Elements](https://karabiner-elements.pqrs.org/) (macOS)
-- Install [https://github.com/nvm-sh/nvm](nvm) and latest LTS Node.js version
+- Install [https://mise.jdx.dev/](mise) and latest LTS Node.js version
 - Install [ripgrep](https://github.com/BurntSushi/ripgrep)
 - Run `git clone git@github.com:pcaisse/dotfiles.git`
 - Run `cd dotfiles && make`
@@ -24,4 +24,3 @@
   ```
   :CocInstall coc-json coc-tsserver coc-eslint coc-prettier coc-metals coc-pyright coc-format-json coc-css coc-sql coc-rust-analyzer
   ```
-- Install [terraform-ls](https://github.com/hashicorp/terraform-ls/blob/main/docs/installation.md)
