@@ -12,3 +12,4 @@ link:
 	ln -sfn $(CURDIR)/init.vim ~/.config/nvim/init.vim
 	ln -sfn $(CURDIR)/coc-settings.json ~/.vim/coc-settings.json
 	ln -sfn $(CURDIR)/coc-settings.json ~/.config/nvim/coc-settings.json
+	ln -sfn $(CURDIR)/inputrc ~/.inputrc
