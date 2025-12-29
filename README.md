@@ -22,5 +22,5 @@
 - Install tmux plugins from within tmux via `prefix + I`
 - Install Coc plugins:
   ```
-  :CocInstall coc-json coc-tsserver coc-eslint coc-prettier coc-metals coc-pyright coc-format-json coc-css coc-sql coc-rust-analyzer
+  :CocInstall coc-json coc-tsserver coc-eslint coc-prettier coc-pyright coc-format-json coc-css coc-sql coc-rust-analyzer
   ```
