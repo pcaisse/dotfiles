@@ -1,7 +1,7 @@
 # Setup
 
 - Install Git, cURL, Neovim
-- Set up [Smart Caps Lock](https://gist.github.com/tanyuan/55bca522bf50363ae4573d4bdcf06e2e#gnulinux) (Linux) or [Karabiner Elements](https://karabiner-elements.pqrs.org/) (macOS)
+- Set up [xcape](https://gist.github.com/tanyuan/55bca522bf50363ae4573d4bdcf06e2e#gnulinux) (Linux) or [Karabiner Elements](https://karabiner-elements.pqrs.org/) (macOS)
 - Install [https://mise.jdx.dev/](mise) and latest LTS Node.js version
 - Install [ripgrep](https://github.com/BurntSushi/ripgrep)
 - Run `git clone git@github.com:pcaisse/dotfiles.git`
